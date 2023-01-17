@@ -1,19 +1,32 @@
 
-
 /* font-family: 'Poppins', sans-serif; */
-/* =====================================
-    Nav section Start
-===========================================*/
+
 *{
     padding: 0;
     margin: 0;
     outline: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif; 
+}
 ul,ol{
     list-style: none;
     padding-left: 0;
 }
+.btn-all{
+    padding: 13px 41px;
+    border-radius: 10px;
+    background-color: #203239;
+    color: #fff;
+
+}
+.btn-all:hover{
+    color: #fff;
+}
+/* =====================================
+    Nav section Start
+===========================================*/
 nav{
     background-color: #EEEDDE !important;
 }
@@ -73,6 +86,71 @@ nav .nav-item .dropdown ul li{
 ===========================================*/
 .banner{
     background-color: #EEEDDE;
+}
+.banner h1{
+    font-size: 56px;
+    line-height: 84px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 100px 0 24px 0;
+    color: #203239;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(32, 50, 57);
+    width: 544px;
+}
+.icon-box{
+    position: relative;
+    margin: 73px 0;
+}
+.icon-box input{
+    width: 675px;
+    padding: 24px 20px;
+    border-radius: 15px;
+    border: none;
+  
+}
+.icon-box input::placeholder{
+    color: #203239;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.icon-box button {
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+.banner-count{
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+.banner-count .item{
+    width: 32%;
+}
+.banner-count .item h2{
+    font-size: 56px;
+    line-height: 84px;
+    font-weight: 600;
+    color: #203239;
+}
+.banner-count .item h2 span{
+    color: #FF7527;
+}
+.banner-count .item p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    width: 142px;
 }
 /* =====================================
     banner section End
